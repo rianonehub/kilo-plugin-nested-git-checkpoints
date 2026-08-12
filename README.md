@@ -120,11 +120,10 @@ dist/           # compiled output shipped to npm (gitignored, published)
 Publishing:
 
 ```bash
+git push -u origin main   # repo: https://github.com/rianonehub/kilo-plugin-nested-git-checkpoints
 npm version <patch|minor|major>
-npm publish        # "prepublishOnly" rebuilds dist before publishing
+npm publish               # "prepublishOnly" rebuilds dist before publishing
 ```
-
-> Note: update the `repository`, `homepage`, and `bugs` URLs in `package.json` (currently pointing at a `OWNER` placeholder) to your GitHub repo before publishing.
 
 ## License
 

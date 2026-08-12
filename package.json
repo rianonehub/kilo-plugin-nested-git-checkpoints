@@ -18,13 +18,13 @@
   "type": "module",
   "license": "MIT",
   "author": "Rian Priskanova <rianpris93@gmail.com>",
-  "homepage": "https://github.com/OWNER/kilo-plugin-nested-git-checkpoints#readme",
+  "homepage": "https://github.com/rianonehub/kilo-plugin-nested-git-checkpoints#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/kilo-plugin-nested-git-checkpoints.git"
+    "url": "git+https://github.com/rianonehub/kilo-plugin-nested-git-checkpoints.git"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/kilo-plugin-nested-git-checkpoints/issues"
+    "url": "https://github.com/rianonehub/kilo-plugin-nested-git-checkpoints/issues"
   },
   "engines": {
     "opencode": "^7.0.0"
