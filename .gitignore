@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# build output (published via package.json "files", not committed)
+dist/
+
+# logs / misc
+*.log
+.DS_Store
+
+# editor
+.idea/
+.vscode/
+
+# tarballs
+*.tgz

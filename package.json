@@ -1,0 +1,63 @@
+{
+  "name": "kilo-plugin-nested-git-checkpoints",
+  "version": "0.1.0",
+  "description": "Kilo/OpenCode plugin that extends checkpoints (snapshot, undo, redo) to nested git repositories — embedded repos and submodules the built-in snapshot cannot see.",
+  "keywords": [
+    "kilo",
+    "kilocode",
+    "opencode",
+    "plugin",
+    "checkpoints",
+    "snapshot",
+    "undo",
+    "git",
+    "submodule",
+    "nested-git",
+    "embedded-repo"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "Rian Priskanova <rianpris93@gmail.com>",
+  "homepage": "https://github.com/OWNER/kilo-plugin-nested-git-checkpoints#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/kilo-plugin-nested-git-checkpoints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/kilo-plugin-nested-git-checkpoints/issues"
+  },
+  "engines": {
+    "opencode": "^7.0.0"
+  },
+  "main": "./dist/server.js",
+  "types": "./dist/server.d.ts",
+  "exports": {
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "import": "./dist/server.js",
+      "config": {
+        "autoRestore": true
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run clean && npm run build",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@kilocode/plugin": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
