@@ -1,3 +1,6 @@
+# NOTE
+This project may not be maintainable. Currently, just for personal use.
+
 # kilo-plugin-nested-git-checkpoints
 
 [![npm version](https://img.shields.io/npm/v/kilo-plugin-nested-git-checkpoints.svg)](https://www.npmjs.com/package/kilo-plugin-nested-git-checkpoints)
