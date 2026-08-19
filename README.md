@@ -130,4 +130,4 @@ npm publish               # "prepublishOnly" rebuilds dist before publishing
 
 ## License
 
-[MIT](./LICENSE) © Rian Priskanova
+[MIT](./LICENSE) 
